@@ -32,7 +32,7 @@ The dataset contains 22,424 images which belongs to one of the 10 classes given 
 We split the data into two sets: training set containing 20,924 images, and validation set containing 1500 images (e.g., 150 images for each class).
 
 
-# train a two-layer dense neural network on top of a pre-trained VGG16 deep CNN
+# Train a two-layer dense neural network on top of a pre-trained VGG16 deep CNN
 
 VGG16 is a 16-layer CNN used by the VGG team in the ILSVRC-2014 competition. The VGG16 network structure can be seen in "vgg16_CNN.png". The weights of pre-trained VGG16 CNN can be found at:
 
@@ -41,7 +41,7 @@ https://gist.github.com/baraldilorenzo/07d7802847aaad0a35d3
 Method 2 is implemented in "distracted_driver_detection_with_pretrained_VGG16_deep_CNN.py". The model consists of two parts: the lower part is a pre-trained VGG network with fozen weights, and the upper part is a two-layer dense network. The model is trained using the dataset.  
 
 
-# credits
+# Credits
 The credit for this goes to https://github.com/Yifeng-He/Distracted-Driver-Detection-with-Deep-Learning
 
 
