@@ -41,7 +41,7 @@ https://gist.github.com/baraldilorenzo/07d7802847aaad0a35d3
 This method is implemented in "distracted_driver_detection_with_pretrained_VGG16_deep_CNN.py". The model consists of two parts: the lower part is a pre-trained VGG network with fozen weights, and the upper part is a two-layer dense network. The model is trained using the dataset.
 
 # Training
-  The training of this is been done on g3.xlarge instance of Amazon AWS. The loss was about 0.57.
+  The training of this has been done on g3.xlarge instance of Amazon AWS. The loss was about 0.57.
 
 
 # Credits
